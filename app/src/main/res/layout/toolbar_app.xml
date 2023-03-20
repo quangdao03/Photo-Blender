@@ -5,7 +5,7 @@
     android:layout_height="60dp">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/appCompatImageView"
+        android:id="@+id/ig_left"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="@dimen/dp10"
@@ -15,18 +15,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_toolbar"
         style="@style/TextViewBaseToolbar"
         android:text="Photo Blender"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/appCompatImageView2"
-        app:layout_constraintStart_toEndOf="@+id/appCompatImageView"
+        app:layout_constraintEnd_toStartOf="@+id/ig_right"
+        app:layout_constraintStart_toEndOf="@+id/ig_left"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/appCompatImageView2"
+        android:id="@+id/ig_right"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginEnd="10dp"
